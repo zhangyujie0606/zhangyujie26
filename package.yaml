@@ -1,0 +1,29 @@
+name: 张玉洁的组件-jpg2
+description: 描述很长一二三四五六七八九十描述很长一二三四五六七八九十描述很长一二三四五六七八九十描述很长一二三四五六七八九十描述很长一二三四五六七八九十描述很长一二三四五六七八九十描述很长一二三四五六七八九十描述很长一二三四五六七八九十描述很长一二三四五六七八九十描述很长一二三四五六七八九十描述很长一二三四五六七八九十描述很长一二三四五六七八九十描述很长一二三四五六七八九十描述很长一二三四五六七八九十描述很长一二三四五六七八九十描述很长一二三四五六七八九十描述很长一二三四五六七八九十
+keywords:
+  - 张玉洁的标签
+  - network
+  - websocket
+  - Network
+  - NETWORK
+  - gsg
+  - 如何替换
+
+
+license: MMMMMMM                                   # GPLv2，LGPLv2.1，MIT，Apache license v2.0，BSD
+
+logo: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1565858396164&di=0ab8a69786793b112525cae6bb30e104&imgtype=0&src=http%3A%2F%2Fimages.missyuan.com%2Fattachments%2Fday_090716%2F20090716_8747f6d9cdff0b5efbd91850115BSsco.jpg
+source_file:
+  - src/*.c
+
+build_config:
+  include:
+    - include
+  cflag: ""                             # C 编译器所需要要的编译参数
+  define:                                      # 宏定义
+    - CONFIG_USING_TLS
+
+install:
+  - dest: include
+    source:
+      - "include/librws.h"
