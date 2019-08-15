@@ -12,8 +12,7 @@ keywords:
 
 license: MMMMMMM                                   # GPLv2，LGPLv2.1，MIT，Apache license v2.0，BSD
 
-logo: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1565858396164&di=0ab8a69786793b112525cae6bb30e104&imgtype=0&src=http%3A%2F%2Fimages.missyuan.com%2Fattachments%2Fday_090716%2F20090716_8747f6d9cdff0b5efbd91850115BSsco.jpg
-source_file:
+logo: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1565858396160&di=674bacd4cabf2a106ed1129814247931&imgtype=0&src=http%3A%2F%2Fpic38.nipic.com%2F20140219%2F6608733_095253164000_2.jpg
   - src/*.c
 
 build_config:
